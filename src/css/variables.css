@@ -1,0 +1,14 @@
+:root{
+    --fonte-padrao: 'Plus Jakarta Sans', sans-serif;
+    --cor-principal: hsl(1, 90%, 64%);
+    --cor-secundaria: hsl(219, 85%, 26%);
+    --cor-terciaria: hsl(228, 45%, 44%);
+    --fundo-1: hsl(210, 60%, 98%);
+    --fundo-2: hsl(211, 68%, 94%);
+    --fundo-3: hsl(205, 33%, 90%);
+    --cor-da-data: hsl(219, 14%, 63%);
+    --cor-do-texto: hsl(219, 12%, 42%);
+    --cor-de-nome: hsl(224, 21%, 14%);
+}
+
+

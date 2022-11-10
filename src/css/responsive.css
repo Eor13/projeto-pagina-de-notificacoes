@@ -1,0 +1,36 @@
+@media(max-width:900px){
+    header{
+        min-width: 70vw;
+    }
+    .titulo{
+        font-size: 2rem;
+    }
+    .notificacao{
+        min-width: 70vw;
+    }
+}
+@media(max-width:780px){
+    header{
+        min-width: 80vw;
+    }
+    .notificacao{
+        min-width: 80vw;
+    }
+}
+@media(max-width:375px){
+    header{
+        min-width: 90vw;
+    }
+    .titulo{
+        font-size: 1.8rem;
+    }
+    .notificacao{
+        min-width: 90vw;
+    }
+    .notificacao .postagem {
+        padding: 0 5px;
+    }
+    .notificacao .postagem .mensagem {
+        margin: 0 15px;
+    }
+}

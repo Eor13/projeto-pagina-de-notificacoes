@@ -1,0 +1,134 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--fundo-1);
+    font-family: var(--fonte-padrao);
+}
+header{
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 ;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5rem;
+}
+.titulo .quantidade-nova{
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    margin: 0 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+.selecionar-todas{
+    font-size: 1.5rem;
+    color: var(--cor-do-texto);
+    cursor: pointer;
+}
+.notificacao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--fundo-1);
+    width: 60vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.notificacao .imagem{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.notificacao .postagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.notificacao .postagem .titulo-mensagem{
+    margin-left: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: var(--cor-do-texto);
+}
+.notificacao .postagem .titulo-mensagem .nome{
+    color: var(--cor-de-nome);
+    font-weight: 800;
+    cursor: pointer;
+}
+.notificacao .postagem .titulo-mensagem .foco-da-titulo-mensagem{
+    color: var(--cor-do-texto);
+    font-weight: 800;
+}
+.notificacao .postagem .data{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--cor-do-texto);
+}
+.notificacao .postagem .mensagem{
+    display: none;
+    margin-left: 10px;
+    border: 1px solid var(--fundo-3);
+    padding: 10px 20px;
+    color: var(--cor-do-texto);
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.notificacao .postagem .mensagem:hover{
+    background-color: var(--cor-terciaria);
+}
+.notificacao .postagem .mensagem-aberta{
+    display: flex;
+    content: "texto";
+    cursor: pointer;
+}
+
+.notificacao-com-imagem{
+    justify-content: space-between;
+}
+.notificacao-com-imagem .bloco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.notificacao .imagem-notificacao{
+    width: 40px;
+    cursor: pointer;
+}
+
+.nova{
+    background-color: var(--fundo-2);
+}
+.nova .postagem .titulo-mensagem .foco-da-titulo-mensagem{
+    color: var(--cor-secundaria);
+    font-weight: 800;
+    position: relative;
+    cursor: pointer;
+}
+.nova .postagem .foco-da-titulo-mensagem:after{
+    content: '';
+    position: absolute; 
+    top:5px;
+    right: -10px;
+    background-color: var(--cor-principal);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+
+}

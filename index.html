@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/variables.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <title>Notifications page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="caixa-de-notificacao">
+  <header>
+    <h1 class="titulo">Notifications <span class="quantidade-nova"></span></h1>
+    <p class="selecionar-todas">Mark all as read</p>
+  </header>
+  <main>
+    <ul class="lista-de-notificacoes">
+      <li class="notificacao nova">
+        <img class="imagem" src="src/images/avatar-mark-webber.webp" alt="Foto Mark Webber">
+        <div class="postagem">
+          <p class="titulo-mensagem"><a class="nome">Mark Webber</a> reacted to your recent post <a href="#" class="foco-da-titulo-mensagem">My first tournament today!</a></p>
+          <p class="data">1m ago</p>
+        <div class="mensagem"></div>
+        </div>
+      </li>
+      
+      <li class="notificacao nova">
+        <img class="imagem" src="src/images/avatar-angela-gray.webp" alt="Foto Angela Gray">
+        <div class="postagem">
+          <p class="titulo-mensagem"><a class="nome">Angela Gray</a> followed you<a href="#" class="foco-da-titulo-mensagem"></a></p>
+          <p class="data">5m ago</p>
+          <div class="mensagem"></div>
+        </div>
+      </li>
+      
+      <li class="notificacao nova">
+        <img class="imagem" src="src/images/avatar-jacob-thompson.webp" alt="Foto jacob Thompson">
+        <div class="postagem">
+          <p class="titulo-mensagem"><a class="nome">Jacob Thompson</a> has joined your group <a href="#" class="foco-da-titulo-mensagem">Chess Club</a></p>
+          <p class="data">1 day ago</p>
+          <div class="mensagem"></div>
+        </div>
+      </li>
+        
+      <li class="notificacao">
+        <img class="imagem" src="src/images/avatar-rizky-hasanuddin.webp" alt="Foto Rizky Hasanuddin">
+        <div class="postagem">
+          <p class="titulo-mensagem"><a class="nome">Rizky Hasanuddin</a> sent you a private message<a href="#" class="foco-da-titulo-mensagem"></a></p>
+          <p class="data">5 days ago</p>
+          <div class="mensagem">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+          </div>
+        </div>
+      </li>
+
+      <li class="notificacao notificacao-com-imagem">
+        <div class="bloco">
+          <img class="imagem" src="src/images/avatar-kimberly-smith.webp" alt="Foto Kimberly Smith">
+          <div class="postagem">
+            <p class="titulo-mensagem"><a class="nome">Kimberly Smith</a> commented on your picture<a href="#" class="foco-da-titulo-mensagem"></a></p>
+            <p class="data">1 week ago</p>
+            <div class="mensagem"></div>
+          </div>
+        </div>
+        <a href="#" ><img class="imagem-notificacao" src="src/images/image-chess.webp" alt="xadrez"></a>
+      </li>
+        
+      <li class="notificacao">
+        <img class="imagem" src="src/images/avatar-nathan-peterson.webp" alt="Foto Nathan Peterson">
+        <div class="postagem">
+          <p class="titulo-mensagem"><a class="nome">Nathan Peterson</a> reacted to your recent post <a href="#" class="foco-da-titulo-mensagem">5 end-game strategies to increase your win rate</a></p>
+          <p class="data">2 weeks ago</p>
+          <div class="mensagem"></div>
+        </div>
+      </li>
+        
+      <li class="notificacao">
+        <img class="imagem" src="src/images/avatar-anna-kim.webp" alt="Foto Anna Kim">
+        <div class="postagem">
+          <p class="titulo-mensagem"><a class="nome">Anna Kim</a> left the group <a href="#" class="foco-da-titulo-mensagem">Chess Club</a></p>
+          <p class="data">2 weeks ago</p>
+          <div class="mensagem"></div>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <script src="src/js/index.js"></script>
+</body>
+</html>
