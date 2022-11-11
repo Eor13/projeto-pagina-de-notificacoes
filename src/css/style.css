@@ -12,7 +12,7 @@ body{
     font-family: var(--fonte-padrao);
 }
 header{
-    width: 60vw;
+    width: 510px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,7 +42,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     background-color: var(--fundo-1);
-    width: 60vw;
+    max-width: 510px;
     padding: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -72,6 +72,7 @@ header{
 .notificacao .postagem .titulo-mensagem .foco-da-titulo-mensagem{
     color: var(--cor-do-texto);
     font-weight: 800;
+    cursor: pointer;
 }
 .notificacao .postagem .data{
     margin-left: 10px;
@@ -90,12 +91,11 @@ header{
     margin-top: 5px;
 }
 .notificacao .postagem .mensagem:hover{
-    background-color: var(--cor-terciaria);
+    cursor: pointer;
 }
 .notificacao .postagem .mensagem-aberta{
     display: flex;
-    content: "texto";
-    cursor: pointer;
+    content: "";
 }
 
 .notificacao-com-imagem{
@@ -118,17 +118,10 @@ header{
 .nova .postagem .titulo-mensagem .foco-da-titulo-mensagem{
     color: var(--cor-secundaria);
     font-weight: 800;
-    position: relative;
+    /* position: relative; */
     cursor: pointer;
 }
-.nova .postagem .foco-da-titulo-mensagem:after{
-    content: '';
-    position: absolute; 
-    top:5px;
-    right: -10px;
-    background-color: var(--cor-principal);
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-
+.nova .postagem .foco-da-titulo-mensagem::after{
+    content: url(../images/bolinha10px.png);
+    margin-left: 2px;
 }
